@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jackson.immersion.MainActivity">
+
+    <TextView
+        android:id="@+id/imageActivity"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="5dp"
+        android:background="#FFA234"
+        android:gravity="center"
+        android:text="图片沉浸式"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/colorActivity"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="5dp"
+        android:background="#FFA234"
+        android:gravity="center"
+        android:text="颜色沉浸式"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="5dp"
+        android:background="#FFA234"
+        android:gravity="center"
+        android:text="Fragment"
+        android:textSize="15sp"/>
+
+</LinearLayout>
